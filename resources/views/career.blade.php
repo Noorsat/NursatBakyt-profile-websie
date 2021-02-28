@@ -15,7 +15,7 @@
                     <a href="/">Portfolio</a>
                 </div>
                 <div class="header__nav">
-                    <ul>
+                <ul>
                         <li><a href="/socials">Features</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/prices">Pricing</a></li>

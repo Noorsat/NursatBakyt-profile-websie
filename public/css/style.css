@@ -643,3 +643,13 @@ footer{
     font-size: 12px;
     color:#606060;  
 }
+.header__logo a{
+    color:#ccc;
+    font-size: 20px;
+    font-weight: 700;
+}
+.form__logo{
+    font-weight: 700;
+    font-size: 24px;
+    
+}

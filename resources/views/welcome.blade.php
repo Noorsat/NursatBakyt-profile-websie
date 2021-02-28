@@ -12,7 +12,7 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__logo">
-                    <a href="/"><img src="images/logo.png" alt=""></a>
+                    <a href="/">Portfolio</a>
                 </div>
                 <div class="header__nav">
                     <ul>
@@ -31,7 +31,7 @@
             <div class="form__wrapper">
                 <div class="form__about">
                     <div class="form__logo">
-                        <img src="images/logo2.png" alt="">
+                        Nursat Bakyt
                     </div>
                     <div class="form__title">
                         <h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>

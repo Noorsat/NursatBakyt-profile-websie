@@ -11,8 +11,8 @@
 <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <div class="header__logo">
-                    <a href="/"><img src="images/logo.png" alt=""></a>
+            <div class="header__logo">
+                    <a href="/">Portfolio</a>
                 </div>
                 <div class="header__nav">
                     <ul>

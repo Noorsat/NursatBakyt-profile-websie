@@ -38,5 +38,3 @@ Route::get('/reviews', function () {
 Route::get('/socials', function () {
     return view('socials');
 });
-
-

@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+use Illuminate\Support\Facades\DB;
+use App\Models\Post;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,4 +40,16 @@ Route::get('/reviews', function () {
 
 Route::get('/socials', function () {
     return view('socials');
+});
+
+Route::get('/post/create', function () {
+    DB::table('Post')->insert([
+        'title'=>'Nursat life',
+        'body'=>'Hello I am Nursat'
+    ]);
+});
+
+Route::get('/post', function () {
+    $post=Post::find(1);
+    return $post;
 });

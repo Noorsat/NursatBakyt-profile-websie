@@ -45,9 +45,16 @@ Route::get('/socials', function () {
 
 Route::get('/post/create', function () {
     DB::table('Post')->insert([
-        'title'=>'Nursat life',
-        'body'=>'Hello I am Nursat'
+        'name'=>'Nursat',
+        'surname'=>'Bakyt',
+        'post'=>'Text'
     ]);
 });
 
-Route::get('/post', [BlogController::class,'index']); 
+Route::get('/blog/index', [BlogController::class,'index']); 
+
+Route::get('/blog/create', function (){
+    return vieW('blog.create');
+});
+
+Route::post('blog/create', [BlogController::class,'store'])->name('add-post');
